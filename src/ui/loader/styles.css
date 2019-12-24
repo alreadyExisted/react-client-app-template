@@ -1,0 +1,16 @@
+.loader {
+  position: relative;
+  min-height: 10rem;
+}
+
+.component {
+  transition: opacity 0.15s;
+}
+
+.isLoading {
+  & .component {
+    opacity: 0.5;
+    user-select: none;
+    pointer-events: none;
+  }
+}

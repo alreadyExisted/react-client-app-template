@@ -1,0 +1,11 @@
+@define-mixin mq-desktop {
+  @media (min-width: 834px) {
+    @mixin-content;
+  }
+}
+
+@define-mixin mq-mobile {
+  @media (max-width: 833px) {
+    @mixin-content;
+  }
+}

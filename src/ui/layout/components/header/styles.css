@@ -1,0 +1,39 @@
+.header {
+  @mixin card;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  height: 6rem;
+  padding: 0 var(--primary-offset);
+}
+
+.list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.item {
+  &:not(:last-child) {
+    margin-right: var(--primary-offset);
+  }
+}
+
+.link {
+  font-weight: 500;
+  color: var(--base-text-color);
+  text-decoration: none;
+}
+
+.active {
+  color: #673ab7;
+}
+
+.locale {
+  color: var(--base-text-color);
+  text-decoration: none;
+  text-transform: uppercase;
+}

@@ -1,0 +1,6 @@
+.title {
+  margin: 0 0 2rem;
+  font-size: 3.6rem;
+  font-weight: 600;
+  color: var(--base-text-color)
+}

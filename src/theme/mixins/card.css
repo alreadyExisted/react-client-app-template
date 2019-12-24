@@ -1,0 +1,4 @@
+@define-mixin card {
+  background: var(--secondary-bg);
+  box-shadow: var(--primary-bsh);
+}

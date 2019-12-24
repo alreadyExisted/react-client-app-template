@@ -1,0 +1,9 @@
+.photo {
+  @mixin card;
+  margin-bottom: var(--primary-offset);
+  padding: var(--primary-offset);
+
+  & .title {
+    margin: 0 0 1rem;
+  }
+}

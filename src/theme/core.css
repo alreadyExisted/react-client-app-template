@@ -1,0 +1,19 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Roboto';
+  font-size: 62.5%;
+  line-height: 1.8;
+}
+
+body {
+  min-width: 32rem;
+  margin: 0;
+  font-size: 1.4rem;
+  background: var(--primary-bg);
+}

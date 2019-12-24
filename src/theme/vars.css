@@ -1,0 +1,7 @@
+:root {
+  --primary-offset: 3rem;
+  --primary-bg: #f3f3f3;
+  --secondary-bg: #fff;
+  --base-text-color: #646777;
+  --primary-bsh: 0 .2rem .4rem rgba(0,0,0,0.08)
+}
